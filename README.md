@@ -44,9 +44,11 @@ The program will print the failure function table for each of the following patt
 
 ```python
 from failure_function import failure_function, solution_3_4_3
+# Compute the failure function for a pattern
 f = failure_function("ababaa")
 # f = [0, 0, 0, 1, 2, 3, 1]
 # f[1]=0, f[2]=0, f[3]=1, f[4]=2, f[5]=3, f[6]=1
+# Print the full table
 print(f)
 ```
 
